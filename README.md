@@ -86,7 +86,7 @@ public class JodConverter {
 ## 方法3：效果最好的一种方法，但是需要window环境，而且速度是最慢的，需要安装msofficeWord以及SaveAsPDFandXPS.exe(word的一个插件，用来把word转化为pdf)
 
 1. Office版本为office2007及以上，因为SaveAsPDFandXPS是微软为office2007及以上版本开发的插件  
-SaveAsPDFandXPS下载地址：http://www.microsoft.com/zh-cn/download/details.aspx?id=7， 有Microsoft Office软件的可以不安装SaveAsPDFandXPS，Office软件会自带插件  
+SaveAsPDFandXPS下载地址：http://www.microsoft.com/zh-cn/download/details.aspx?id=7 有Microsoft Office软件的可以不安装SaveAsPDFandXPS，Office软件会自带插件  
 
 2. jacob 包下载地址：http://sourceforge.net/projects/jacob-project/  
 **注意** ：把下载的JAR里面的jacob.dll拷贝至%JAVA_HOME%\jre\bin目录（不放会报错：java.lang.NoClassDefFoundError: Could not initialize class com.jacob.com.Dispatch）  
